@@ -25,4 +25,4 @@ jobs:
               run: npm test
 
             - name: Format code
-              run: npx prettier --check \"./**/*.{js,jsx,mjs,cjs,ts,tsx,json}\"
+              run: npx prettier --check "./src/**/*.{js,jsx,mjs,cjs,ts,tsx,json}"
