@@ -332,6 +332,7 @@
     "scripts": {
         "test": "LOG_LEVEL=silent jest --coverage --no-cache --detectOpenHandles",
         "pretty": "prettier --write \"./**/*.{js,jsx,mjs,cjs,ts,tsx,json}\"",
+        "check": "prettier --check \"./**/*.{js,jsx,mjs,cjs,ts,tsx,json}\"",
         "typeorm": "typeorm-ts-node-commonjs",
         "start": "ts-node src/index.ts"
     },
